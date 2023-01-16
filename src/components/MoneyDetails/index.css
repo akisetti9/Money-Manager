@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.md-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #475569;
+  margin-bottom: 24px;
+}
+@media screen and (max-width: 767px) {
+  .md-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 320px;
+  border-radius: 10px;
+  border: 2px solid;
+  margin: 12px;
+}
+
+.balance {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+
+.income {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+
+.expenses {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}
+
+.image-size {
+  height: 60px;
+  margin-left: 24px;
+}
+
+.stats {
+  margin-left: 36px;
+  flex-grow: 1;
+}
+
+.amount {
+  font-size: larger;
+}
